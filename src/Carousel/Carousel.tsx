@@ -10,7 +10,7 @@ interface CarouselProps extends Partial<CarouselPropsBase> {
 }
 
 const Carousel: React.FC<CarouselProps> = ({ className, hasDarkIndicators = true, children, hasDarkArrows = true, onChange, showArrows = true }) => (
-    <S.StyledCarousel className={className} infiniteLoop showStatus={false} showThumbs={false} onChange={onChange} showArrows={showArrows} hasDarkArrows={hasDarkArrows} hasDarkIndicators={hasDarkIndicators}>
+    <S.StyledCarousel className={className} preventMovementUntilSwipeScrollTolerance swipeScrollTolerance={50} infiniteLoop showStatus={false} showThumbs={false} onChange={onChange} showArrows={showArrows} hasDarkArrows={hasDarkArrows} hasDarkIndicators={hasDarkIndicators}>
         {children}
     </S.StyledCarousel>
 )
