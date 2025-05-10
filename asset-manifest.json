@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WeddingPage/static/css/main.5b16202c.css",
-    "main.js": "/WeddingPage/static/js/main.6ae5e15b.js",
+    "main.js": "/WeddingPage/static/js/main.9727b8d1.js",
     "static/media/riese.jpg": "/WeddingPage/static/media/riese.56c37065a5722c6dce6b.jpg",
     "static/media/Porto.jpg": "/WeddingPage/static/media/Porto.515b040c4e19726acd4e.jpg",
     "static/media/wieliczka.jpg": "/WeddingPage/static/media/wieliczka.ca8fb8de3c4de48e6fec.jpg",
@@ -55,10 +55,10 @@
     "static/media/clockIcon.svg": "/WeddingPage/static/media/clockIcon.35e23c3240c87c956611f1165b8ff22b.svg",
     "static/media/leaf.svg": "/WeddingPage/static/media/leaf.9ea62230f8b1f1806e83dd3580e506e2.svg",
     "main.5b16202c.css.map": "/WeddingPage/static/css/main.5b16202c.css.map",
-    "main.6ae5e15b.js.map": "/WeddingPage/static/js/main.6ae5e15b.js.map"
+    "main.9727b8d1.js.map": "/WeddingPage/static/js/main.9727b8d1.js.map"
   },
   "entrypoints": [
     "static/css/main.5b16202c.css",
-    "static/js/main.6ae5e15b.js"
+    "static/js/main.9727b8d1.js"
   ]
 }
