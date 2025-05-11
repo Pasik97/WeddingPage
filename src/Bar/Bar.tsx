@@ -26,7 +26,7 @@ const drinks = [
         title: "Aperol Spritz",
         photo: AperolSpiritz,
         steps: [
-            "Do szklanki lub kieliszka do wina dodaj 2 porcje prosecco,oraz 1 porcję Aperolu.",
+            "Do szklanki lub kieliszka do wina dodaj 2 porcje prosecco oraz 1 porcję Aperolu.",
             "Uzupełnij drink preferowaną ilością lodu oraz wody gazowanej.",
             "(Opcjonalnie) Dodaj 2-3 plasterki pomarańczy.",
             "Delikatnie wymieszaj składniki łyżeczką.",
@@ -69,7 +69,7 @@ const drinks = [
         title: "Long Island Iced Tea",
         photo: LongIsland,
         steps: [
-            `Do wysokiej szklanki dodaj 1 porcje wódki, 1 porcję rumu, 1 porcję tequili, 1 porcję ginu, 1 porcję likieru pomarańczowego, 1 porcję soku z cytryny oraz 1 porcję syropu cukrowego.`,
+            "Do wysokiej szklanki dodaj 1 porcje wódki, 1 porcję rumu, 1 porcję tequili, 1 porcję ginu, 1 porcję likieru pomarańczowego, 1 porcję soku z cytryny oraz 1 porcję syropu cukrowego.",
             "Uzupełnij drink preferowaną ilością lodu oraz coli.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "(Opcjonalnie) Udekoruj drink plasterkiem limonki.",
