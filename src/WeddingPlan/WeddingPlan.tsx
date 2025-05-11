@@ -16,7 +16,7 @@ const WeddingPlan: React.FC = () => (
     <S.SectionWrapper id="plan">
         <S.MaxContentWrapper>
             <S.StyledSectionTag text="PLAN WESELA" variant="dark" />
-            <S.SectionTitle>Zobacz, jak będzie wyglądał plan naszego <S.BoldText>wielkiego dnia</S.BoldText></S.SectionTitle>
+            <S.SectionTitle>Zobacz, jak wygląda plan naszego <S.BoldText>wielkiego dnia</S.BoldText></S.SectionTitle>
             <S.PlanWrapper>
                 {weddingPlan.map(({ time, name }) => (
                     <S.Step key={time + name}>

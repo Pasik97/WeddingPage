@@ -80,7 +80,7 @@ export const SectionTitle = styled.p`
     font-weight: 300;
 
     ${desktopStart} {
-        max-width: 940px;
+        max-width: 800px;
         margin: 32px auto;
         width: 100%;
         font-size: 56px;
