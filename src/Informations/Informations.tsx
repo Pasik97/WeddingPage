@@ -40,7 +40,7 @@ const Informations: React.FC = () => {
                     </S.Info>
                     <S.Info>
                         <S.InfoIconWrapper><S.IconWrapper><ChurchIcon /></S.IconWrapper><S.InfoText>Kościół:</S.InfoText></S.InfoIconWrapper>
-                        <S.InfoText>Najświętszego serca Pana Jezusa w Dębicy</S.InfoText>
+                        <S.InfoText>Najświętszego Serca Pana Jezusa w Dębicy</S.InfoText>
                     </S.Info>
                     <S.Info>
                         <S.InfoIconWrapper><S.IconWrapper><ChampagneIcon /></S.IconWrapper><S.InfoText>Dom Weselny:</S.InfoText></S.InfoIconWrapper>
