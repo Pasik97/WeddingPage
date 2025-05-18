@@ -92,8 +92,8 @@ export const Result = styled.div`
     margin-top: 16px;    
     background: ${Colors.white};
     padding: 64px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 36px;
     font-family: "Fraunces", sans-serif;
     font-weight: 200;
     color: ${Colors.darkGray};
@@ -103,8 +103,8 @@ export const Result = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 28px;
-        line-height: 31px;
+        font-size: 40px;
+        line-height: 44px;
     }
 `;
 
