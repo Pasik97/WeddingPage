@@ -16,7 +16,7 @@ const drinks = [
         title: "Blue Hawaiian",
         photo: BlueHawaiian,
         steps: [
-            "Do wysokiej szklanki dodaj 1 porcję rumu, 1 porcję wódki, 3/4 porcji Blue Curaçao, 3/4 porcji syropu cukrowego, 3/4 porcji soku z cytryny.",
+            "Do szklanki dodaj 1 porcję rumu, 1 porcję wódki, 3/4 porcji Blue Curaçao, 3/4 porcji syropu cukrowego, 3/4 porcji soku z cytryny.",
             "Uzupełnij drink preferowaną ilością lodu oraz soku ananasowego.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "(Opcjonalnie) Udekoruj drink plasterkiem ananasa.",
@@ -37,7 +37,7 @@ const drinks = [
         title: "Mojito / Mohito",
         photo: Mohito,
         steps: [
-            "Do wysokiej szklanki dodaj 2 łyżeczki cukru brązowego, 3-4 liście mięty oraz 1.5 porcji soku z cytryny.",
+            "Do szklanki dodaj 2 łyżeczki cukru brązowego, 3-4 liście mięty oraz 1.5 porcji soku z cytryny.",
             "Za pomocą długiej łyżeczki rozgnieć składniki. Cukier powinien rozpuścić się w soku.",
             "Dodaj 2 porcje rumu oraz 0.5 limonki pokrojonej w plasterki.",
             "Uzupełnij drink preferowaną ilość lodu oraz wodą gazowaną.",
@@ -69,7 +69,7 @@ const drinks = [
         title: "Long Island Iced Tea",
         photo: LongIsland,
         steps: [
-            "Do wysokiej szklanki dodaj 1 porcje wódki, 1 porcję rumu, 1 porcję tequili, 1 porcję ginu, 1 porcję likieru pomarańczowego, 1 porcję soku z cytryny oraz 1 porcję syropu cukrowego.",
+            "Do szklanki dodaj 1 porcję wódki, 1 porcję rumu, 1 porcję tequili, 1 porcję ginu, 1 porcję likieru pomarańczowego, 1 porcję soku z cytryny oraz 1 porcję syropu cukrowego.",
             "Uzupełnij drink preferowaną ilością lodu oraz coli.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "(Opcjonalnie) Udekoruj drink plasterkiem limonki.",
@@ -79,7 +79,7 @@ const drinks = [
         title: "Pina colada",
         photo: PinaColada,
         steps: [
-            "Do wysokiej szklanki dodaj 1.5 porcji rumu, 1 porcję malibu oraz 1.5 porcji mleka kokosowego.",
+            "Do szklanki dodaj 1.5 porcji rumu, 1 porcję malibu oraz 1.5 porcji mleka kokosowego.",
             "Uzupełnij drink preferowaną ilością lodu oraz soku ananasowego.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "(Opcjonalnie) Udekoruj drink plasterkiem ananasa.",
@@ -89,7 +89,7 @@ const drinks = [
         title: "Sex on the beach",
         photo: SexOnTheBeach,
         steps: [
-            "Do wysokiej szklanki dodaj 2 porcje wódki oraz 1 porcje likieru brzoskwiniowego.",
+            "Do szklanki dodaj 2 porcje wódki oraz 1 porcję likieru brzoskwiniowego.",
             "Uzupełnij drink preferowaną ilością lodu oraz soku pomarańczowego i soku żurawinowego w proporcji 1/1.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "(Opcjonalnie) Udekoruj drink plasterkiem pomarańczy.",
@@ -99,7 +99,7 @@ const drinks = [
         title: "Tequila sunrise",
         photo: TequilaSunrise,
         steps: [
-            "Do wysokiej szklanki dodaj 2.5 porcji tequili.",
+            "Do szklanki dodaj 2.5 porcji tequili.",
             "Uzupełnij drink preferowaną ilością lodu oraz soku pomarańczowego.",
             "Delikatnie wymieszaj składniki łyżeczką.",
             "Powoli dodaj 1 porcję grenadiny tak aby opadła na spód szklanki.",

@@ -3,15 +3,18 @@ import * as S from "./Menu.styles";
 import { ReactComponent as LeafIcon } from "../assets/leaf.svg";
 
 const obiad = [
-    { title: "DANIE I", foods: ["Rosół Królewski"], wege: "Krem z czegośtam" },
-    { title: "DANIE II", foods: ["Półmisek mięs", "Ziemniak", "Frytki"], wege: "Papryka nadziewana czymś tam" },
-    { title: "DODATKI", foods: ["Mizeria", "Surówka z czerwonej kapusty"], }
+    { title: "DANIE I", foods: ["Rosół Królewski"], wege: "Krem pomidorowy z grzankami" },
+    { title: "DANIE II", foods: ["Półmisek mięs: Tradycyjny kotlet schabowy, Devolay, Grilowany filet z kurczaka nadziewany szynką oraz mascarpone, Pieczeń z karkówki", "Ziemniaki z koprem"], wege: "Kotlet z batata" },
+    { title: "DODATKI", foods: ["Surówka marchewka z mandarynką", "Surówka z czerwonej kapusty z sosem jogurtowo - majonezowym", "Mizeria"], },
+    { title: "DESER", foods: ["Fondant czekoladowy z lodami i frużeliną z wiśni"] },
 ]
 
 const kolacje = [
-    { title: "KOLACJA I", foods: ["Szynka z kluskami śląskimi oraz surówką"], wege: "Bakłażan coś tam" },
-    { title: "KOLACJA II", foods: ["Bułeczka Bao z szarpaną wieprzowiną"], wege: "Barszcz czerwony z czymś tam" },
-    { title: "TORT", foods: ["Jakis tam - jakis z tam z żelką jakąś tam"] }
+    { title: "KOLACJA I", foods: ["Zrazy z warzywami w sosie z kluskami śląskimi"], wege: "Papryka nadziewana ryżem i warzywami" },
+    { title: "KOLACJA II", foods: ["Bułeczka Bao z szarpaną wołowiną"], wege: "Bułeczka Bao z warzywami" },
+    { title: "KOLACJA III", foods: ["Strogonow"], wege: "Krem z cukinii z grznkami" },
+    { title: "KOLACJA IV", foods: ["Barszcz czerwony z pierożkiem krucho - drożdżowym"], wege: "Barszcz czerwony z pizzerinką" },
+    { title: "TORT", foods: ["Z musem z białej czekolady, frużeliną malinową i chrupką z nutellą"] }
 ]
 
 const Menu: React.FC = () => (
@@ -28,7 +31,7 @@ const Menu: React.FC = () => (
                             <S.MenuItem key={title}>
                                 <S.ItemName>{title}</S.ItemName>
                                 <S.ItemFoods>
-                                    {foods.map(food => <S.Food key={food}>{food}</S.Food>)}
+                                    {foods?.map(food => <S.Food key={food}>{food}</S.Food>)}
                                     {!wege ? null : (
                                         <S.ItemWege>
                                             <S.WegeIcon>
@@ -51,7 +54,7 @@ const Menu: React.FC = () => (
                             <S.MenuItem key={title}>
                                 <S.ItemName>{title}</S.ItemName>
                                 <S.ItemFoods>
-                                    {foods.map(food => <S.Food key={food}>{food}</S.Food>)}
+                                    {foods?.map(food => <S.Food key={food}>{food}</S.Food>)}
                                     {!wege ? null : (
                                         <S.ItemWege>
                                             <S.WegeIcon>
@@ -76,7 +79,7 @@ const Menu: React.FC = () => (
                             <S.MenuItem key={title}>
                                 <S.ItemName>{title}</S.ItemName>
                                 <S.ItemFoods>
-                                    {foods.map(food => <S.Food key={food}>{food}</S.Food>)}
+                                    {foods?.map(food => <S.Food key={food}>{food}</S.Food>)}
                                     {!wege ? null : (
                                         <S.ItemWege>
                                             <S.WegeIcon>
@@ -99,7 +102,7 @@ const Menu: React.FC = () => (
                             <S.MenuItem key={title}>
                                 <S.ItemName>{title}</S.ItemName>
                                 <S.ItemFoods>
-                                    {foods.map(food => <S.Food key={food}>{food}</S.Food>)}
+                                    {foods?.map(food => <S.Food key={food}>{food}</S.Food>)}
                                     {!wege ? null : (
                                         <S.ItemWege>
                                             <S.WegeIcon>

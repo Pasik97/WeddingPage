@@ -3,13 +3,17 @@ import * as S from "./WeddingPlan.styles";
 
 const weddingPlan = [
     { time: "14:00", name: "Ślub" },
-    { time: "15:00", name: "Przyjazd na salę weselną" },
-    { time: "16:00", name: "Obiad" },
-    { time: "17:00", name: "Pierwszy Taniec" },
-    { time: "19:00", name: "Tort" },
-    { time: "21:00", name: "I Kolacja" },
-    { time: "00:00", name: "Oczepiny" },
-    { time: "02:00", name: "Zabawa do białego rana!" },
+    { time: "16:00", name: "Przyjazd na salę weselną, życzenia oraz obiad" },
+    { time: "17:30", name: "Pierwszy Taniec" },
+    { time: "18:00", name: "Fotobudka - dostępna obok fontanny" },
+    { time: "18:30", name: "Zdjęcia grupowe wraz z niespodzianką" },
+    { time: "19:30", name: "I Kolacja" },
+    { time: "21:00", name: "Fotobudka kończy uwiecznianie chwil" },
+    { time: "21:30", name: "Tort Weselny pod gołym niebem" },
+    { time: "22:30", name: "II Kolacja" },
+    { time: "00:30", name: "III Kolacja" },
+    { time: "02:00", name: "IV Kolacja" },
+    { time: "", name: "Zabawa do białego rana!" },
 ]
 
 const WeddingPlan: React.FC = () => (

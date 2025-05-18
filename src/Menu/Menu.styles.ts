@@ -60,6 +60,10 @@ export const BoldText = styled.span`
 
 export const Menu = styled.div`
     padding: 0 16px 24px;
+
+    ${desktopStart} {
+        max-width: 380px;
+    }
 `;
 
 export const MenuTitle = styled.p`
