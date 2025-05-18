@@ -21,7 +21,7 @@ const Menu: React.FC = () => (
     <S.SectionWrapper id="menu">
         <S.StyledSectionTag text="MENU" />
         <S.SectionText>Sprawdź, co <S.BoldText>pysznego</S.BoldText> dla Ciebie przygotowaliśmy! Smacznego!</S.SectionText>
-        <S.SectionSubText>Poniżej znajdziesz menu obiadowe oraz menu z daniami na ciepło, które będą serwowane w trakcie przyjęcia. Zachęcamy również do odwiedzenia słodkiego stołu, pełnego ciast, deserów i innych łakoci, a także szwedzkiego stołu, gdzie czekają różnorodne przekąski i przysmaki. Niech to będzie uczta nie tylko dla serca, ale i dla podniebienia!</S.SectionSubText>
+        <S.SectionSubText>Poniżej znajdziesz menu obiadowe oraz menu z daniami na ciepło, które będą serwowane w trakcie przyjęcia. Zachęcamy również do odwiedzenia słodkiego stołu, pełnego ciast, deserów i innych łakoci, a także wiejskiego stołu, gdzie czekają różnorodne przekąski i przysmaki. Niech to będzie uczta nie tylko dla serca, ale i dla podniebienia!</S.SectionSubText>
         <S.StyledCarousel showArrows={false}>
             <S.CenterWrapper>
                 <S.Menu>
