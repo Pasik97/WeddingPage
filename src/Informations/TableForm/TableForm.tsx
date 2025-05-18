@@ -4,7 +4,7 @@ import * as S from "./TableForm.styles";
 const randomNumber = Math.round(Math.random());
 
 const miejsca = {
-    1: ["Agata Serkis",
+    3: ["Agata Serkis",
         "Oliwia Szymaszek",
         "Julia Florka",
         "Łukasz Trela",
@@ -37,7 +37,7 @@ const miejsca = {
         "Piotr Serkis",
         "Justyna Serkis",
     ],
-    2: [
+    1: [
         "Krystyna Kobylarz",
         "Ryszard Kobylarz",
         "Grzegorz Piątek",
@@ -62,7 +62,7 @@ const miejsca = {
         "Stanisław Pasik",
         "Grażyna Pasik",
     ],
-    3: [
+    2: [
         "Magdalena Wrona",
         "Piotr Wrona",
         "Łukasz Wrona",
