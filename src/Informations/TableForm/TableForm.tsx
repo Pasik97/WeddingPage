@@ -4,21 +4,24 @@ import * as S from "./TableForm.styles";
 const randomNumber = Math.round(Math.random());
 
 const miejsca = {
-    3: ["Agata Serkis",
+    3: [
+        "Agata Serkis",
         "Oliwia Szymaszek",
         "Julia Florka",
         "Łukasz Trela",
         "Patryk Szymaszek",
+        "Q",
         "Bartosz Łabno",
         "Piotr Łabno",
         "Barbara Łabno",
         "Izabela Łabno",
         "Małgorzata Niziołek",
+        "W",
         "Anna Niziołek",
         "Tadeusz Niziołek",
         "Bernadeta Majkowska",
         "Jan Majkowski",
-        "Waldemar Majkowsi",
+        "Waldemar Majkowski",
         "Joanna Majkowska",
         "Zuzanna Majkowska",
         "Emilia Majkowska",
@@ -36,6 +39,7 @@ const miejsca = {
         "Grzegorz Szymaszek",
         "Piotr Serkis",
         "Justyna Serkis",
+        "Jaś Serkis",
     ],
     1: [
         "Krystyna Kobylarz",
@@ -71,6 +75,9 @@ const miejsca = {
         "Agnieszka Sibiga",
         "Edyta Skóra",
         "Marek Skóra",
+        "E",
+        "A",
+        "S",
         "Rafał Gurga",
         "Andżelika Mazur - Gurga",
         "Anna Syguła",
@@ -80,6 +87,8 @@ const miejsca = {
         "Renata Babicz",
         "Małgorzata Kuroś",
         "Jan Kuroś",
+        "D",
+        "Z",
     ],
     4: [
         "Przemysław Adamczyk",
@@ -90,8 +99,10 @@ const miejsca = {
         "Bartosz Preisner",
         "Weronika Matejek",
         "Gabriela Matejek",
+        "X",
         "Karol Sibiga",
         "Marcel Sibiga",
+        "C",
         "Klaudia Skóra",
         "Kinga Stachowicz",
         "Janek Stachowicz",
@@ -99,6 +110,7 @@ const miejsca = {
         "Paweł Mika",
         "Wiktoria Mika",
         "Jakub Gawenda",
+        "V",
         "Karolina Strąg",
         "Mateusz Strąg",
         "Mateusz Bieś",
@@ -114,13 +126,19 @@ const miejsca = {
     ],
 }
 
+const parseName = (name: string) => name.replace(/ /g, '').toLocaleLowerCase();
 
-const getTable = (name: string, surname: string) => {
-    const searchString = `${name}${surname}`.toLocaleLowerCase();
+const getTable = (argName: string) => {
+    const [tableNumber, table] = Object.entries(miejsca).find(([, names]) => names.some(name => parseName(name) === argName)) ?? [];
 
-    const [table] = Object.entries(miejsca).find(([, names]) => names.some(name => name.replace(/ /g, '').toLocaleLowerCase() === searchString)) ?? [];
+    if (table) {
+        return {
+            tableNumber,
+            table,
+        }
+    }
 
-    return table ? `Stół ${table}` : "Nie udało się odnaleźć miejsca :(";
+    return undefined;
 }
 
 const TableForm: React.FC = () => {
@@ -146,7 +164,13 @@ const TableForm: React.FC = () => {
         setIsResultVisible(false);
     }
 
-    const result = isResultVisible && getTable(name, surname);
+    const searchString = parseName(`${name}${surname}`);
+    const { tableNumber, table } = getTable(searchString) ?? {};
+
+    const halfTable = Math.ceil((table?.length ?? 0) / 2);
+
+    const leftSeats = table?.slice(0, halfTable);
+    const rightSeats = table?.slice(halfTable);
 
     return (
         <S.SectionWrapper>
@@ -164,7 +188,17 @@ const TableForm: React.FC = () => {
                     </S.InputWrapper>
                 </S.FormWrapper>
             </S.TextAndFromWrapper>
-            <S.Result>{result}</S.Result>
+            <S.Result>
+                {isResultVisible && (
+                    tableNumber && table ? (
+                        <>
+                            <S.SeatsWrapper>{leftSeats?.map((name) => <S.Seat highlight={parseName(name) === searchString} key={name} />)}</S.SeatsWrapper>
+                            <S.TableName>Stół {tableNumber}</S.TableName>
+                            <S.SeatsWrapper>{rightSeats?.map((name) => <S.Seat highlight={parseName(name) === searchString} key={name} />)}</S.SeatsWrapper>
+                        </>
+                    ) : "Nie udało się odnaleźć miejsca"
+                )}
+            </S.Result>
         </S.SectionWrapper>
     )
 }

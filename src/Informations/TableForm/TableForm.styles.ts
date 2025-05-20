@@ -91,21 +91,46 @@ export const Input = styled.input`
 export const Result = styled.div`
     margin-top: 16px;    
     background: ${Colors.white};
-    padding: 64px;
+    padding: 24px 32px;
     font-size: 32px;
     line-height: 36px;
     font-family: "Fraunces", sans-serif;
     font-weight: 200;
-    color: ${Colors.darkGray};
+    color: ${Colors.placeholderColor};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 336px;
 
     ${desktopStart} {
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: 40px;
         line-height: 44px;
     }
 `;
 
 export const TextAndFromWrapper = styled.div``;
+
+export const TableName = styled.div`
+    border: 1px solid ${Colors.borderColor};
+    height: 100%;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const Seat = styled.div<{ highlight: boolean }>`
+    height: 12px;
+    width: 12px;
+    border: 1px solid ${({ highlight }) => highlight ? Colors.textBlack : Colors.borderColor};
+    ${({ highlight }) => highlight && `background: ${Colors.textBlack};`};
+`;
+
+export const SeatsWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 0 16px;
+`;
