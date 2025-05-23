@@ -1,6 +1,11 @@
 import React from "react";
 import * as S from "./BuildingPlan.styles";
-import Carousel from "../../Carousel/Carousel";
+import { ReactComponent as Outside } from "../../assets/outside.svg";
+import { ReactComponent as OutsideTablet } from "../../assets/outsideTablet.svg";
+import { ReactComponent as OutsideMobile } from "../../assets/outsideMobile.svg";
+import { ReactComponent as Inside } from "../../assets/inside.svg";
+import { ReactComponent as InsideTablet } from "../../assets/insideTablet.svg";
+import { ReactComponent as InsideMobile } from "../../assets/insideMobile.svg";
 
 const BuildingPlan: React.FC = () => (
     <S.SectionWrapper id="tables">
@@ -8,10 +13,18 @@ const BuildingPlan: React.FC = () => (
         <S.SectionSubText>Dla ciekawych – zamieściliśmy również rzut sali weselnej oraz otoczenia, byś już teraz mógł poczuć klimat tego wyjątkowego miejsca.</S.SectionSubText>
         <S.SectionSubText>Na samym dole znajdziesz również formularz, który pozwoli Ci sprawdzić, przy którym stole będziesz siedzieć. Dzięki temu unikniesz zamieszania po przybyciu i od razu poczujesz się jak u siebie!</S.SectionSubText>
         <S.ImagesWrapper>
-            <Carousel>
-                <S.Img src="https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" />
-                <S.Img src="https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80" />
-            </Carousel>
+            <S.MobileCarousel>
+                <S.Img><InsideMobile /></S.Img>
+                <S.Img><OutsideMobile /></S.Img>
+            </S.MobileCarousel>
+            <S.TabletCarousel>
+                <S.Img><InsideTablet /></S.Img>
+                <S.Img><OutsideTablet /></S.Img>
+            </S.TabletCarousel>
+            <S.DesktopCarousel>
+                <S.Img><Inside /></S.Img>
+                <S.Img><Outside /></S.Img>
+            </S.DesktopCarousel>
         </S.ImagesWrapper>
     </S.SectionWrapper>
 )

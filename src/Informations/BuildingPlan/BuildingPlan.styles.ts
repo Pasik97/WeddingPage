@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Carousel from "../../Carousel/Carousel";
 import { desktopStart } from "../../constants/media";
 
 export const SectionWrapper = styled.div`
@@ -28,7 +29,6 @@ export const SectionTitle = styled.p`
 
 export const ImagesWrapper = styled.div`
     width: 100%;
-    height: 440px;
     overflow: hidden;
     margin-top: 24px;
 
@@ -37,13 +37,13 @@ export const ImagesWrapper = styled.div`
     }
 `;
 
-export const Img = styled.img`
+export const Img = styled.div`
     width: 100%;
-    height: 440px;
     padding-bottom: 40px;
 
-    ${desktopStart} {
-        padding-bottom: 48px;
+    svg {
+        max-height: 540px;
+        border: 1px solid #E6E6E6;
     }
 `;
 
@@ -62,3 +62,25 @@ export const SectionSubText = styled.p`
         margin: 8px auto 0;
     }
 `;
+
+export const MobileCarousel = styled(Carousel)`
+    @media only screen and (min-width: 600px) {
+        display: none;
+    }
+`
+
+export const TabletCarousel = styled(Carousel)`
+    display: none;
+
+    @media only screen and (min-width: 600px) and (max-width: 799px) {
+        display: block;
+    }
+`
+
+export const DesktopCarousel = styled(Carousel)`
+    display: none;
+
+    @media only screen and (min-width: 800px) {
+        display: block;
+    }
+`
