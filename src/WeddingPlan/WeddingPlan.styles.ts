@@ -56,11 +56,16 @@ export const Step = styled.div`
     display: grid;
     grid-template-columns: 100px 1fr;
 
+    ${StepText}:nth-child(odd) {
+        display: flex;
+        align-items: center;
+    }
+
     ${desktopStart} {
         grid-template-columns: 1fr 1fr;
 
         ${StepText}:nth-child(odd) {
-            text-align: right;
+            justify-content: flex-end;
         }
     }
 

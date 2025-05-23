@@ -2,6 +2,7 @@ import styled from "styled-components";
 import SectionTag from "../SectionTag/SectionTag";
 import { Colors } from "../constants/Colors";
 import { desktopStart } from "../constants/media";
+import Carousel from "../Carousel/Carousel";
 
 export const SectionWrapper = styled.div`
     display: flex;
@@ -194,3 +195,15 @@ export const InfoAndMapWrapper = styled.div`
         margin-top: 0px;
     }
 `;
+
+export const StyledCarousel = styled(Carousel)`
+    .control-arrow {
+        height: calc(100% - 40px);
+    }
+
+    ${desktopStart} {
+        .control-arrow {
+            height: calc(100% - 48px);
+        }
+    }
+`

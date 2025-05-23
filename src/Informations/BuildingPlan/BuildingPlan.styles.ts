@@ -66,6 +66,10 @@ export const MobileCarousel = styled(Carousel)`
     @media only screen and (min-width: 600px) {
         display: none;
     }
+
+    .control-arrow {
+        height: calc(100% - 44px);
+    }
 `
 
 export const TabletCarousel = styled(Carousel)`
@@ -74,6 +78,10 @@ export const TabletCarousel = styled(Carousel)`
     @media only screen and (min-width: 600px) and (max-width: 799px) {
         display: block;
     }
+
+    .control-arrow {
+        height: calc(100% - 44px);
+    }
 `
 
 export const DesktopCarousel = styled(Carousel)`
@@ -81,5 +89,9 @@ export const DesktopCarousel = styled(Carousel)`
 
     @media only screen and (min-width: 800px) {
         display: block;
+    }
+
+    .control-arrow {
+        height: calc(100% - 44px);
     }
 `
