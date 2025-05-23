@@ -27,6 +27,7 @@ export const TopSectionContent = styled.div`
 
     ${desktopStart} {
         padding: 4px 80px;
+        max-width: 1992px;
     }
 `;
 
