@@ -42,7 +42,6 @@ export const Img = styled.div`
     padding-bottom: 40px;
 
     svg {
-        max-height: 540px;
         border: 1px solid #E6E6E6;
     }
 `;
