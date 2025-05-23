@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/WeddingPage/static/css/main.5b16202c.css",
-    "main.js": "/WeddingPage/static/js/main.cf48632b.js",
+    "main.js": "/WeddingPage/static/js/main.f452f1a4.js",
+    "static/media/outsideTablet.svg": "/WeddingPage/static/media/outsideTablet.b0478bcf15bdafd1001a3ce24bf99df2.svg",
+    "static/media/outside.svg": "/WeddingPage/static/media/outside.44e78d33ef8bb9e1b0b21fa8ef1d9a25.svg",
+    "static/media/outsideMobile.svg": "/WeddingPage/static/media/outsideMobile.7bd2b1196b3780906185a0833a826ebb.svg",
     "static/media/riese.jpg": "/WeddingPage/static/media/riese.91822642f9e99c123f2d.jpg",
     "static/media/falesia.jpg": "/WeddingPage/static/media/falesia.ae2153dd393fa959a542.jpg",
     "static/media/Porto.jpg": "/WeddingPage/static/media/Porto.f2538d3066ba38dabb01.jpg",
@@ -34,7 +37,10 @@
     "static/media/tequila-sunrise.jpg": "/WeddingPage/static/media/tequila-sunrise.168ce8b45f03b62c4b13.jpg",
     "static/media/sex-on-the-beach.jpg": "/WeddingPage/static/media/sex-on-the-beach.03276dd85cdddbf8acce.jpg",
     "static/media/cuba-libre.jpg": "/WeddingPage/static/media/cuba-libre.3ab92be46b6f2269c524.jpg",
+    "static/media/insideTablet.svg": "/WeddingPage/static/media/insideTablet.f4e984d9e5660dc6170fd6614b82f26d.svg",
+    "static/media/inside.svg": "/WeddingPage/static/media/inside.851095b3bd397a84da2c4779345a3b39.svg",
     "static/media/mohito.jpg": "/WeddingPage/static/media/mohito.204f45946eb881293ff5.jpg",
+    "static/media/insideMobile.svg": "/WeddingPage/static/media/insideMobile.2225eec18e2e17dc08777a24eceea52a.svg",
     "static/media/blue-hawaiian.jpg": "/WeddingPage/static/media/blue-hawaiian.dd5bd6e5ab6a72265c1a.jpg",
     "static/media/lozko.jpg": "/WeddingPage/static/media/lozko.3a558743c7c12fb2ae37.jpg",
     "static/media/long-island-ice-tea.jpg": "/WeddingPage/static/media/long-island-ice-tea.bf4542573c04ec05dce5.jpg",
@@ -55,10 +61,10 @@
     "static/media/clockIcon.svg": "/WeddingPage/static/media/clockIcon.35e23c3240c87c956611f1165b8ff22b.svg",
     "static/media/leaf.svg": "/WeddingPage/static/media/leaf.9ea62230f8b1f1806e83dd3580e506e2.svg",
     "main.5b16202c.css.map": "/WeddingPage/static/css/main.5b16202c.css.map",
-    "main.cf48632b.js.map": "/WeddingPage/static/js/main.cf48632b.js.map"
+    "main.f452f1a4.js.map": "/WeddingPage/static/js/main.f452f1a4.js.map"
   },
   "entrypoints": [
     "static/css/main.5b16202c.css",
-    "static/js/main.cf48632b.js"
+    "static/js/main.f452f1a4.js"
   ]
 }
