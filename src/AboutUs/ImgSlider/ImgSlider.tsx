@@ -29,6 +29,13 @@ import Porto from "../../assets/Porto.jpg";
 import RzymPlaza from "../../assets/Rzym_plaza.jpg";
 import RzymWatykan from "../../assets/Rzym_watykan.jpg";
 import Ursa from "../../assets/ursa.jpg";
+import DlugaLuka from "../../assets/dlugaLuka.jpg";
+import Krakow from "../../assets/krakow.jpg";
+import Lublin from "../../assets/lublin.jpg";
+import Stanczyki from "../../assets/stanczyki.jpg";
+import Szczecin from "../../assets/szczecinNoc.jpg";
+import Leknica from "../../assets/leknica.jpg";
+
 // STRZAŁKI!
 const imgs = [
     { text: "Faro, Portugalia", year: "2024", photo: Zareczyny, rotation: -15 },
@@ -58,7 +65,13 @@ const imgs = [
     { text: "Dębica, Polska", year: "2024", photo: AlbertUrodziny, rotation: -4 },
     { text: "Wieliczka, Polska", year: "2023", photo: Wieliczka, rotation: -16 },
     { text: "Giewont, Polska", year: "2020", photo: Giewont, rotation: 8 },
-    { text: "Jastrzębia Góra, Polska", year: "2023", photo: Jastrzebie, rotation: -15 },
+    { text: `Ścieżka „Długa Luka”, Polska`, year: "2023", photo: DlugaLuka, rotation: -15 },
+    { text: "Krakow, Polska", year: "2019", photo: Krakow, rotation: 3 },
+    { text: "Lublin, Polska", year: "2023", photo: Lublin, rotation: 17 },
+    { text: "Stańczyki, Polska", year: "2023", photo: Stanczyki, rotation: -4 },
+    { text: "Szczecin, Polska", year: "2024", photo: Szczecin, rotation: -16 },
+    { text: "Łęknica, Polska", year: "2024", photo: Leknica, rotation: 8 },
+    { text: "Jastrzębia Góra, Polska", year: "2023", photo: Jastrzebie, rotation: -8 },
 ]
 
 const ImgSlider: React.FC = () => (

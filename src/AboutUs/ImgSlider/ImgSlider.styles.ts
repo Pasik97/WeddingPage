@@ -56,7 +56,7 @@ export const FadeWrapper = styled.div`
 
 export const Slider = styled.div`
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repeat(17, 1fr);
     padding: 32px 16px;
 
     ${desktopStart} {
