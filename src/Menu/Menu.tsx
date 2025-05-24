@@ -6,7 +6,7 @@ const obiad = [
     { title: "DANIE I", foods: ["Rosół Królewski"], wege: "Krem pomidorowy z grzankami" },
     { title: "DANIE II", foods: ["Półmisek mięs: Tradycyjny kotlet schabowy, Devolay, Grilowany filet z kurczaka nadziewany szynką oraz mascarpone, Pieczeń z karkówki", "Ziemniaki z koprem"], wege: "Kotlet z batata" },
     { title: "DODATKI", foods: ["Surówka marchewka z mandarynką", "Surówka z czerwonej kapusty z sosem jogurtowo - majonezowym", "Mizeria"], },
-    { title: "DESER", foods: ["Fondant czekoladowy z lodami i frużeliną z wiśni"] },
+    { title: "DESER", foods: ["Fondant czekoladowy z lodami oraz frużeliną z wiśni"] },
 ]
 
 const kolacje = [
