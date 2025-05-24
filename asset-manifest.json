@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/WeddingPage/static/css/main.5b16202c.css",
-    "main.js": "/WeddingPage/static/js/main.da861a06.js",
+    "main.js": "/WeddingPage/static/js/main.3c8997bc.js",
     "static/media/outsideTablet.svg": "/WeddingPage/static/media/outsideTablet.b0478bcf15bdafd1001a3ce24bf99df2.svg",
     "static/media/outside.svg": "/WeddingPage/static/media/outside.44e78d33ef8bb9e1b0b21fa8ef1d9a25.svg",
     "static/media/outsideMobile.svg": "/WeddingPage/static/media/outsideMobile.7bd2b1196b3780906185a0833a826ebb.svg",
     "static/media/riese.jpg": "/WeddingPage/static/media/riese.91822642f9e99c123f2d.jpg",
+    "static/media/stanczyki.jpg": "/WeddingPage/static/media/stanczyki.04108f94941b2e05b3ca.jpg",
     "static/media/falesia.jpg": "/WeddingPage/static/media/falesia.ae2153dd393fa959a542.jpg",
+    "static/media/dlugaLuka.jpg": "/WeddingPage/static/media/dlugaLuka.d5fc39d872f13f01a037.jpg",
     "static/media/Porto.jpg": "/WeddingPage/static/media/Porto.f2538d3066ba38dabb01.jpg",
     "static/media/moszna.jpg": "/WeddingPage/static/media/moszna.5aa013f043ac7511353a.jpg",
     "static/media/wieliczka.jpg": "/WeddingPage/static/media/wieliczka.2dc139c77322fe78bf63.jpg",
@@ -15,8 +17,10 @@
     "static/media/poczdam.jpg": "/WeddingPage/static/media/poczdam.63ef440dc05dff012e77.jpg",
     "static/media/spacer.jpg": "/WeddingPage/static/media/spacer.bfa5f983afefacbc9635.jpg",
     "static/media/Rzym_watykan.jpg": "/WeddingPage/static/media/Rzym_watykan.d7a997d0d90dd42ff73a.jpg",
-    "static/media/praga.jpg": "/WeddingPage/static/media/praga.79a8faca272dd4288f85.jpg",
+    "static/media/leknica.jpg": "/WeddingPage/static/media/leknica.323de3a48cb895b37ec8.jpg",
     "static/media/gdynia.jpg": "/WeddingPage/static/media/gdynia.4a3191d4d6cc4afce33e.jpg",
+    "static/media/szczecinNoc.jpg": "/WeddingPage/static/media/szczecinNoc.7e4c71e01f079354b208.jpg",
+    "static/media/lublin.jpg": "/WeddingPage/static/media/lublin.c48d6a8d0033016685c7.jpg",
     "static/media/Rzym_plaza.jpg": "/WeddingPage/static/media/Rzym_plaza.c1d0fe10261518304f9b.jpg",
     "static/media/leba.jpg": "/WeddingPage/static/media/leba.963c9e47e582ed517532.jpg",
     "static/media/swieta.jpg": "/WeddingPage/static/media/swieta.9401b591f7431cda90d4.jpg",
@@ -31,6 +35,7 @@
     "static/media/albert_urodziny.jpg": "/WeddingPage/static/media/albert_urodziny.e7ffb24dc302bbce2e7c.jpg",
     "static/media/Gdynia_ryby.jpg": "/WeddingPage/static/media/Gdynia_ryby.7a4cb1c6d25a53f4da11.jpg",
     "static/media/ustronie.jpg": "/WeddingPage/static/media/ustronie.b556b5c772aa41b14f56.jpg",
+    "static/media/praga.jpg": "/WeddingPage/static/media/praga.3d4b6185a8e044c73537.jpg",
     "static/media/studiowka.jpg": "/WeddingPage/static/media/studiowka.e3e72246ef65f8b22c6f.jpg",
     "static/media/zareczyny.jpg": "/WeddingPage/static/media/zareczyny.31fb2d9e124ef40c327d.jpg",
     "static/media/mapa.jpg": "/WeddingPage/static/media/mapa.fac9f58d4dc42cade3a7.jpg",
@@ -48,6 +53,7 @@
     "static/media/aperol-spritz.jpg": "/WeddingPage/static/media/aperol-spritz.17243f1a8f4978bf8198.jpg",
     "static/media/pina-colada.jpg": "/WeddingPage/static/media/pina-colada.e6c89761d767e2b2a190.jpg",
     "static/media/szarwarkMapa.jpg": "/WeddingPage/static/media/szarwarkMapa.9100aa7f39c2fdbdf97c.jpg",
+    "static/media/krakow.jpg": "/WeddingPage/static/media/krakow.2ae286126b696988f723.jpg",
     "static/media/Gab_Kon_logo.svg": "/WeddingPage/static/media/Gab_Kon_logo.52c32bec62a17a16c6504475f17637e4.svg",
     "static/media/hotelIcon.svg": "/WeddingPage/static/media/hotelIcon.8c5dc19fd411f767546d657f4831f898.svg",
     "static/media/champagne.svg": "/WeddingPage/static/media/champagne.7e97720b929cca94f6c362bbd0e69cb1.svg",
@@ -61,10 +67,10 @@
     "static/media/clockIcon.svg": "/WeddingPage/static/media/clockIcon.35e23c3240c87c956611f1165b8ff22b.svg",
     "static/media/leaf.svg": "/WeddingPage/static/media/leaf.9ea62230f8b1f1806e83dd3580e506e2.svg",
     "main.5b16202c.css.map": "/WeddingPage/static/css/main.5b16202c.css.map",
-    "main.da861a06.js.map": "/WeddingPage/static/js/main.da861a06.js.map"
+    "main.3c8997bc.js.map": "/WeddingPage/static/js/main.3c8997bc.js.map"
   },
   "entrypoints": [
     "static/css/main.5b16202c.css",
-    "static/js/main.da861a06.js"
+    "static/js/main.3c8997bc.js"
   ]
 }
