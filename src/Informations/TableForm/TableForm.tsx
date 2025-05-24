@@ -164,6 +164,12 @@ const TableForm: React.FC = () => {
         setIsResultVisible(false);
     }
 
+    const onKeyUp = (e: React.KeyboardEvent) => {
+        if(e.key === "Enter") {
+            onBlur();
+        }
+    }
+
     const searchString = parseName(`${name}${surname}`);
     const { tableNumber, table } = getTable(searchString) ?? {};
 
@@ -180,11 +186,11 @@ const TableForm: React.FC = () => {
                 <S.FormWrapper>
                     <S.InputWrapper>
                         <S.InputLabel>Imię</S.InputLabel>
-                        <S.Input placeholder={randomNumber === 0 ? "Konrad" : "Gabriela"} onChange={onInputChange("name")} value={name} onBlur={onBlur} onFocus={onFocus} />
+                        <S.Input placeholder={randomNumber === 0 ? "Konrad" : "Gabriela"} onChange={onInputChange("name")} value={name} onBlur={onBlur} onFocus={onFocus} onKeyUp={onKeyUp} />
                     </S.InputWrapper>
                     <S.InputWrapper>
                         <S.InputLabel>Nazwisko</S.InputLabel>
-                        <S.Input placeholder={randomNumber === 0 ? "Pasik" : "Florka"} onChange={onInputChange("surname")} value={surname} onBlur={onBlur} onFocus={onFocus} />
+                        <S.Input placeholder={randomNumber === 0 ? "Pasik" : "Florka"} onChange={onInputChange("surname")} value={surname} onBlur={onBlur} onFocus={onFocus} onKeyUp={onKeyUp} />
                     </S.InputWrapper>
                 </S.FormWrapper>
             </S.TextAndFromWrapper>
