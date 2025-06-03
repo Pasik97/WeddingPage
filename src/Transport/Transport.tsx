@@ -4,7 +4,7 @@ import { ReactComponent as BusIcon } from "../assets/busIcon.svg";
 import { ReactComponent as HotelIcon } from "../assets/hotelIcon.svg";
 
 const infos = [
-    { icon: <BusIcon />, text: "Od godziny 1:00 w nocy kursować będzie bus 10-osobowy, natomiast od godziny 3:00 dołączy do niego drugi minivan. Zachęcamy do skorzystania z transportu i odebrania samochodów następnego dnia, aby móc w pełni cieszyć się zabawą bez zmartwień." },
+    { icon: <BusIcon />, text: "Od godziny 1:00 w nocy kursować będzie bus 8-osobowy, natomiast od godziny 3:00 dołączy do niego drugi minivan. Zachęcamy do skorzystania z transportu i odebrania samochodów następnego dnia, aby móc w pełni cieszyć się zabawą bez zmartwień." },
     { icon: <HotelIcon />, text: "Zameldowanie możliwe jest od godziny 14:00, a wymeldowanie do godziny 11:00 dnia następnego. Wierzymy, że nocleg będzie dla Ciebie miłym przedłużeniem naszego wspólnego świętowania!" },
 ]
 
