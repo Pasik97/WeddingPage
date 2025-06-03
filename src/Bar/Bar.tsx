@@ -112,7 +112,7 @@ const Bar: React.FC = () => (
     <S.SectionWrapper id="drinks">
         <S.StyledSectionTag text="COŚ MOCNIEJSZEGO" />
         <S.SectionText>Przepisy na drinki, które przygotujesz <S.BoldText>samodzielnie</S.BoldText> w kilka chwil</S.SectionText>
-        <S.SectionSubText>Dla spragnionych dobrej zabawy przygotowaliśmy coś specjalnego! Znajdziesz tu proste i szybkie przepisy na pyszne drinki, które możesz samodzielnie skomponować przy naszym barze samoobsługowym. Kilka składników, odrobina fantazji i gotowe – stwórz swój ulubiony koktajl i wznieś z nami toast za miłość!</S.SectionSubText>
+        <S.SectionSubText>Dla spragnionych dobrej zabawy przygotowaliśmy coś specjalnego! Znajdziesz tu proste i szybkie przepisy na pyszne drinki, które możesz samodzielnie skomponować przy naszym barze. Kilka składników, odrobina fantazji i gotowe – stwórz swój ulubiony koktajl i wznieś z nami toast za miłość!</S.SectionSubText>
         <Carousel showArrows={false}>
             {drinks.map(drink => (
                 <S.Drink key={drink.title}>
