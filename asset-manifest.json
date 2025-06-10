@@ -1,10 +1,7 @@
 {
   "files": {
-    "main.css": "/WeddingPage/static/css/main.5b16202c.css",
-    "main.js": "/WeddingPage/static/js/main.ee1ac068.js",
-    "static/media/outsideTablet.svg": "/WeddingPage/static/media/outsideTablet.b0478bcf15bdafd1001a3ce24bf99df2.svg",
-    "static/media/outside.svg": "/WeddingPage/static/media/outside.44e78d33ef8bb9e1b0b21fa8ef1d9a25.svg",
-    "static/media/outsideMobile.svg": "/WeddingPage/static/media/outsideMobile.7bd2b1196b3780906185a0833a826ebb.svg",
+    "main.css": "/WeddingPage/static/css/main.e6c13ad2.css",
+    "main.js": "/WeddingPage/static/js/main.4391aba7.js",
     "static/media/riese.jpg": "/WeddingPage/static/media/riese.91822642f9e99c123f2d.jpg",
     "static/media/stanczyki.jpg": "/WeddingPage/static/media/stanczyki.04108f94941b2e05b3ca.jpg",
     "static/media/falesia.jpg": "/WeddingPage/static/media/falesia.ae2153dd393fa959a542.jpg",
@@ -38,39 +35,18 @@
     "static/media/praga.jpg": "/WeddingPage/static/media/praga.3d4b6185a8e044c73537.jpg",
     "static/media/studiowka.jpg": "/WeddingPage/static/media/studiowka.e3e72246ef65f8b22c6f.jpg",
     "static/media/zareczyny.jpg": "/WeddingPage/static/media/zareczyny.31fb2d9e124ef40c327d.jpg",
-    "static/media/mapa.jpg": "/WeddingPage/static/media/mapa.fac9f58d4dc42cade3a7.jpg",
-    "static/media/tequila-sunrise.jpg": "/WeddingPage/static/media/tequila-sunrise.168ce8b45f03b62c4b13.jpg",
-    "static/media/sex-on-the-beach.jpg": "/WeddingPage/static/media/sex-on-the-beach.03276dd85cdddbf8acce.jpg",
-    "static/media/cuba-libre.jpg": "/WeddingPage/static/media/cuba-libre.3ab92be46b6f2269c524.jpg",
-    "static/media/insideTablet.svg": "/WeddingPage/static/media/insideTablet.686358242dbef1b5cade1aacda7622c5.svg",
-    "static/media/inside.svg": "/WeddingPage/static/media/inside.d347ab5ec629387720847e560ce79f02.svg",
-    "static/media/mohito.jpg": "/WeddingPage/static/media/mohito.204f45946eb881293ff5.jpg",
-    "static/media/insideMobile.svg": "/WeddingPage/static/media/insideMobile.2225eec18e2e17dc08777a24eceea52a.svg",
-    "static/media/blue-hawaiian.jpg": "/WeddingPage/static/media/blue-hawaiian.dd5bd6e5ab6a72265c1a.jpg",
     "static/media/lozko.jpg": "/WeddingPage/static/media/lozko.3a558743c7c12fb2ae37.jpg",
-    "static/media/long-island-ice-tea.jpg": "/WeddingPage/static/media/long-island-ice-tea.bf4542573c04ec05dce5.jpg",
-    "static/media/cosmopolitan.jpg": "/WeddingPage/static/media/cosmopolitan.be2cd25f1e9c393bfc14.jpg",
-    "static/media/aperol-spritz.jpg": "/WeddingPage/static/media/aperol-spritz.17243f1a8f4978bf8198.jpg",
-    "static/media/pina-colada.jpg": "/WeddingPage/static/media/pina-colada.e6c89761d767e2b2a190.jpg",
-    "static/media/szarwarkMapa.jpg": "/WeddingPage/static/media/szarwarkMapa.9100aa7f39c2fdbdf97c.jpg",
     "static/media/krakow.jpg": "/WeddingPage/static/media/krakow.2ae286126b696988f723.jpg",
     "static/media/Gab_Kon_logo.svg": "/WeddingPage/static/media/Gab_Kon_logo.52c32bec62a17a16c6504475f17637e4.svg",
-    "static/media/hotelIcon.svg": "/WeddingPage/static/media/hotelIcon.8c5dc19fd411f767546d657f4831f898.svg",
-    "static/media/champagne.svg": "/WeddingPage/static/media/champagne.7e97720b929cca94f6c362bbd0e69cb1.svg",
     "static/media/Logo.svg": "/WeddingPage/static/media/Logo.8cb199c8e85925459129d68df0c757c4.svg",
-    "static/media/churchIcon.svg": "/WeddingPage/static/media/churchIcon.7fa781c37447a3ea53d37d246a6fd35a.svg",
-    "static/media/busIcon.svg": "/WeddingPage/static/media/busIcon.462005fb97c2790c3f3f59cacec24e84.svg",
     "static/media/phoneIcon.svg": "/WeddingPage/static/media/phoneIcon.f3c530955a59fd9707b0ec9eca021cf9.svg",
-    "static/media/calendarIcon.svg": "/WeddingPage/static/media/calendarIcon.77010d1c0adfd5747332bf1d81562fb4.svg",
     "index.html": "/WeddingPage/index.html",
     "static/media/facebookIcon.svg": "/WeddingPage/static/media/facebookIcon.f4b356d64879a18b1ac65242e3e3776a.svg",
-    "static/media/clockIcon.svg": "/WeddingPage/static/media/clockIcon.35e23c3240c87c956611f1165b8ff22b.svg",
-    "static/media/leaf.svg": "/WeddingPage/static/media/leaf.9ea62230f8b1f1806e83dd3580e506e2.svg",
-    "main.5b16202c.css.map": "/WeddingPage/static/css/main.5b16202c.css.map",
-    "main.ee1ac068.js.map": "/WeddingPage/static/js/main.ee1ac068.js.map"
+    "main.e6c13ad2.css.map": "/WeddingPage/static/css/main.e6c13ad2.css.map",
+    "main.4391aba7.js.map": "/WeddingPage/static/js/main.4391aba7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b16202c.css",
-    "static/js/main.ee1ac068.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4391aba7.js"
   ]
 }
