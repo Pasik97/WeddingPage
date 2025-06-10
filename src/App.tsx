@@ -2,13 +2,14 @@ import React, { useEffect, useRef } from 'react';
 import * as S from "./App.styles";
 import Header from './Header/Header';
 import AboutUs from './AboutUs/AboutUs';
-import Informations from './Informations/Informations';
-import WeddingPlan from './WeddingPlan/WeddingPlan';
-import Menu from './Menu/Menu';
-import Bar from './Bar/Bar';
-import Transport from './Transport/Transport';
+// import Informations from './Informations/Informations';
+// import WeddingPlan from './WeddingPlan/WeddingPlan';
+// import Menu from './Menu/Menu';
+// import Bar from './Bar/Bar';
+// import Transport from './Transport/Transport';
 import Media from './Media/Media';
 import Contact from './Contact/Contact';
+import ThankYou from './ThankYou/ThankYou';
 
 console.log("A ja wiem od kogo wy są. To Wy xDevsy! Naughty naughty 😏")
 
@@ -27,12 +28,13 @@ const App: React.FC = () => {
     <S.PageWrapper>
       <S.PageContent>
         <Header />
+        <ThankYou />
         <AboutUs />
-        <Informations />
-        <WeddingPlan />
-        <Menu />
-        <Bar />
-        <Transport />
+        {/* <Informations /> */}
+        {/* <WeddingPlan /> */}
+        {/* <Menu /> */}
+        {/* <Bar /> */}
+        {/* <Transport /> */}
         <Media />
         <Contact />
       </S.PageContent>

@@ -7,10 +7,12 @@ export const SectionWrapper = styled.div`
     flex-direction: column;
     padding: 0 24px;
     text-align: center;
+    padding-top: 80px;
 
     ${desktopStart} {
         max-width: 1000px;
         margin: 0 auto 72px;
+        padding-top: 112px;
     }
 `;
 

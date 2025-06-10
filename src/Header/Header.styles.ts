@@ -3,11 +3,11 @@ import { Colors } from "../constants/Colors";
 import { desktopStart } from "../constants/media";
 
 export const Header = styled.div`
-    padding-bottom: 80px;
+    // padding-bottom: 80px;
 
-    ${desktopStart} {
-        padding-bottom: 112px;
-    }
+    // ${desktopStart} {
+    //     padding-bottom: 112px;
+    // }
 `;
 
 export const TopSection = styled.div`

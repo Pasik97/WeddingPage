@@ -1,19 +1,18 @@
 import styled from "styled-components";
 import SectionTag from "../SectionTag/SectionTag";
-import { Colors } from "../constants/Colors";
 import { desktopStart } from "../constants/media";
+import { Colors } from "../constants/Colors";
 
 export const SectionWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    // padding: 80px 24px 32px;
-    padding: 80px 24px 80px;
+    padding: 80px 24px 48px;
     text-align: center;
     background: ${Colors.white};
+    padding-top: 80px;
 
     ${desktopStart} {
-        // padding-bottom: 16px;
-        padding-bottom: 64px;
+        padding-top: 112px;
     }
 `;
 
@@ -31,7 +30,7 @@ export const SectionText = styled.p`
     ${desktopStart} {
         font-size: 56px;
         line-height: 64px;
-        max-width: 800px;
+        max-width: 1000px;
         margin: 32px auto 16px;
     }
 `;
@@ -52,24 +51,20 @@ export const Info = styled.p`
         font-size: 14px;
         line-height: 21px;
         margin: 24px auto 48px;
-        max-width: 560px;
+        max-width: 740px;
     }
 `;
 
-export const ButtonsWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    padding-bottom: 24px;
-`;
+export const SecondText = styled(Info)`
+    margin: -8px auto 0;
+`
 
-export const Button = styled.a`
-    background: ${Colors.textBlack};
-    color: ${Colors.white};
-    padding: 16px;
-    border-radius: 8px;
-    font-size: 14px;
-    line-height: 14px;
-    text-decoration: none !important;
-    min-width: 72px;
-`;
+export const Signature = styled(Info)`
+    margin: 8px auto 24px;
+    font-family: "Fraunces", sans-serif;
+    font-size: 21px;
+
+    ${desktopStart} {
+        font-size: 24px;
+    }
+`

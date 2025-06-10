@@ -10,7 +10,7 @@ export const SectionWrapper = styled.div`
     text-align: center;
     padding-top: 64px;
     padding-bottom: 80px;
-    margin-top: 48px;
+    // margin-top: 48px;
     background: ${Colors.textBlack};
     color: ${Colors.white};
 
